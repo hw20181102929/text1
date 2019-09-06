@@ -55,3 +55,25 @@ repeat{
     print("\(index)与5的乘积为\(index*5)")
     index = index + 1
 }while index<30
+var stringa=String("Hello world")
+print(stringa)
+var stringb=""
+if stringb.isEmpty{
+    print("kongkongruye")
+}
+else{
+    print("tashiyoudongxide ")
+}
+var h = Int()
+var  w = 10
+(w == 10) ? (h = 0) : (h = 1)
+print("\(h)")
+var digital = 1
+var sum = 0
+while(digital<=100){
+    sum = sum + digital
+    digital = digital + 1
+}
+var ii = 100*(1+100)/2;
+print("ii的值是\(ii)");
+print("使用while sum = \(sum)")
