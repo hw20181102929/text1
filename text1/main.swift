@@ -77,3 +77,8 @@ while(digital<=100){
 var ii = 100*(1+100)/2;
 print("ii的值是\(ii)");
 print("使用while sum = \(sum)")
+sum = 0
+for iii in 1...100{
+    sum = sum + iii
+}
+print("使用for sum = \(sum)")
