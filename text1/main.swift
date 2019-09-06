@@ -1,20 +1,19 @@
 print("请输入您的分数：")
 var score = readLine()!
-var Score=Int(score)!
-if(Score >= 90){
+var Score = Int(score)!
+var Index = Score/10
+switch (Index){
+case 10,9:
     print("A")
-}
-else if(Score >= 80){
+case 8:
     print("B")
-}
-else if(Score >= 70){
+case 7:
     print("C")
-}
-else if(Score >= 60){
-   print("D")
-}
-else{
+case 6:
+    print("D")
+default :
     print("不及格")
+    
 }
 var a = 0
 if(Score >= 90){
@@ -44,3 +43,15 @@ case 4:
 default:
     print("不及格")
 }
+for index in 0...10{
+    print("\(index)与5的乘积为\(index*5)")
+}
+var index = 10
+while index<20{
+ print("\(index)与5的乘积为\(index*5)")
+    index = index + 1
+}
+repeat{
+    print("\(index)与5的乘积为\(index*5)")
+    index = index + 1
+}while index<30
